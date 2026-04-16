@@ -1,0 +1,60 @@
+🔥 STEP 1: OPEN WIRESHARK
+Open Wireshark
+Select your network:
+Wi-Fi (usually)
+Ethernet (if using LAN)
+
+👉 Double click to start capture
+
+🔥 STEP 2: GENERATE TRAFFIC (IMPORTANT)
+
+👉 Open browser and visit:
+
+YouTube
+Google
+Any website
+
+👉 Keep browsing for ~2 minutes
+
+🔥 STEP 3: STOP CAPTURE
+
+👉 Click red square (stop button)
+
+🔥 STEP 4: FILTER UDP PACKETS
+
+In filter bar (top), type:
+
+udp
+
+👉 Press Enter
+
+👉 Now only UDP packets will show ✔
+
+🔥 STEP 5: OPEN IO GRAPH
+
+Go to:
+
+Statistics → IO Graph
+🔥 STEP 6: CONFIGURE GRAPH
+
+In IO Graph window:
+
+Set:
+Tick Interval → 1 sec
+Graph 1 filter →
+udp
+
+👉 This shows UDP traffic over time
+
+🔥 STEP 7: SET 2-MIN WINDOW
+
+👉 If needed:
+
+Drag timeline OR
+Just show full capture (~2 mins)
+🔥 STEP 8: TAKE OUTPUT
+
+👉 Take screenshot of:
+
+UDP packets (filtered view)
+IO Graph
